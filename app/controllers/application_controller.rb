@@ -3,6 +3,6 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
   def index
-  render text: "Yupi,yupi,yooooooo"
+  render text: "Hello world. I am happy to learn Rails"
   end
 end
